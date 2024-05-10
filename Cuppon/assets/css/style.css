@@ -1,0 +1,40 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* #212529;
+#707070;
+#F8F9FA o var(--light);
+#fff o var(--white);
+#28a745 o var(--success); */
+
+.navbar {
+    background-color: #28a745;
+
+}
+
+.navbar-toggler {
+    border: 1.5px solid #fff;
+}
+
+.navbar img {
+    height: 2rem;
+}
+
+form {
+    background-color: #28a745;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+}
+
+.footer img {
+    width: 1px;
+}
+
+.list-group-item3 {
+    color: #28a745;
+    
+}

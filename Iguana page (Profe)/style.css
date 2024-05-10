@@ -1,0 +1,76 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #000000;
+}
+
+h1,
+h2,
+p,
+i {
+  color: #ffffff;
+}
+
+header h1 {
+  font-size: 4em;
+  text-align: center;
+  font-weight: 500;
+}
+header img {
+  width: 100%;
+}
+.texto {
+  display: inline-block;
+  width: 400px;
+}
+.imagen {
+  display: inline-block;
+  width: 400px;
+}
+
+.imagen img {
+  width: 80%;
+  margin: 40px 80px;
+}
+.desc-section {
+  display: flex;
+  justify-content: center;
+}
+
+.icons-section h2 {
+  font-size: 3em;
+  font-weight: 300;
+}
+.icons_div div {
+  display: inline-block;
+  text-align: center;
+  margin: 12px 100px;
+}
+.icons_div i {
+  font-size: 2em;
+}
+.icons_div p {
+  font-size: 1.2em;
+}
+
+.icons-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1e1a13;
+}
+.figures {
+  display: flex;
+  margin: 100px 0px;
+  justify-content: center;
+}
+
+.figures img {
+  width: 25%;
+  margin: 4px 20px;
+}
+
+footer {
+  background-color: #1e1a13;
+  text-align: center;
+  padding: 40px 0px;
+}

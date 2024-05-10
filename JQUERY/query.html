@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hola soy JQuery</h1>
+    <p id="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quaerat, aliquid assumenda est,
+        mollitia hic fugiat ratione earum nulla eos voluptas quasi natus, ut itaque quam qui inventore necessitatibus
+        recusandae.</p>
+    <button id="bttn">Tocar</button>
+
+    <!-- 1° SCRIPT JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!-- 2° NUESTRO SCRIPT -->
+    <script>
+        // var parrafo = $("#parrafo")
+        // parrafo.text("Hola hola hola")
+
+        function pocho() { alert("que buen alert!!!") }
+        $("#bttn").click(pocho);
+        var bttn = $("#bttn").click()
+
+        $("p").dblclick(function () {
+            $(this).hide();
+        });
+
+
+    </script>
+
+</body>
+
+</html>

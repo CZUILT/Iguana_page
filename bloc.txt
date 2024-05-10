@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Nombre: </th>
+            <th scope="col">Carrera: </th>
+            <th scope="col">Ramo: </th>
+            <th scope="col">Nota 1: </th>
+            <th scope="col">Nota 2: </th>
+            <th scope="col">Nota 3: </th>
+            <th scope="col">Promedio: </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="4" id="nombre"></td>
+            <td rowspan="4" id="carrera"></td>
+            <td>HTML</td>
+            <td id="htmlNota1"></td>
+            <td id="htmlNota2"></td>
+            <td id="htmlNota3"></td>
+            <td id="htmlPromedio"></td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td id="cssNota1"></td>
+            <td id="cssNota2"></td>
+            <td id="cssNota3"></td>
+            <td id="cssPromedio"></td>
+          </tr>
+          <tr>
+            <td>JS</td>
+            <td id="jsNota1"></td>
+            <td id="jsNota2"></td>
+            <td id="jsNota3"></td>
+            <td id="jsPromedio"></td>
+          </tr>
+        </tbody>
+    </table>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
+
+
+var nombre = document.getElementById("nombre");
+var carrera = document.getElementById("carrera");
+
+nombre.innerHTML = prompt("Ingrese nombre: ");
+carrera.innerHTML = prompt("Ingrese carrera: ");
+
+var htmlNota1 = parseFloat(prompt("Ingrese nota 1 (HTML): "));
+var htmlNota2 = parseFloat(prompt("Ingrese nota 2 (HTML): "));
+var htmlNota3 = parseFloat(prompt("Ingrese nota 3 (HTML): "));
+
+document.getElementById("htmlNota1").innerHTML = htmlNota1;
+document.getElementById("htmlNota2").innerHTML = htmlNota2;
+document.getElementById("htmlNota3").innerHTML = htmlNota3;
+
+var htmlPromedio = (htmlNota1 + htmlNota2 + htmlNota3) / 3;
+
+document.getElementById("htmlPromedio").innerHTML = htmlPromedio;
+
+var cssNota1 = parseFloat(prompt("Ingrese nota 1 (CSS): "));
+var cssNota2 = parseFloat(prompt("Ingrese nota 2 (CSS): "));
+var cssNota3 = parseFloat(prompt("Ingrese nota 3 (CSS): "));
+
+document.getElementById("cssNota1").innerHTML = cssNota1;
+document.getElementById("cssNota2").innerHTML = cssNota2;
+document.getElementById("cssNota3").innerHTML = cssNota3;
+
+var cssPromedio = (cssNota1 + cssNota2 + cssNota3) / 3;
+
+document.getElementById("cssPromedio").innerHTML = cssPromedio;
+
+var jsNota1 = parseFloat(prompt("Ingrese nota 1 (JS): "));
+var jsNota2 = parseFloat(prompt("Ingrese nota 2 (JS): "));
+var jsNota3 = parseFloat(prompt("Ingrese nota 3 (JS): "));
+
+document.getElementById("jsNota1").innerHTML = jsNota1;
+document.getElementById("jsNota2").innerHTML = jsNota2;
+document.getElementById("jsNota3").innerHTML = jsNota3;
+
+var jsPromedio = (jsNota1 + jsNota2 + jsNota3) / 3;
+
+document.getElementById("jsPromedio").innerHTML = jsPromedio;

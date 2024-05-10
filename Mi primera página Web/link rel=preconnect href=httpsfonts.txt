@@ -1,0 +1,79 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&amp;display=swap" rel="stylesheet">
+
+<Header>
+<body>
+<div> 
+	<h1>Iguanas</h1>
+</div>
+<div>
+	<img class="w-100" src="assets/img/bg-header.jpg" alt="Iguana_img">
+</div>
+</header>
+
+<secction>
+<div>
+	<p>La iguana es un reptil perteneciente a la familia Iguanadiae. Su tamaño está entre los 15 cm hasta los 2 metros de largo y puede llegar a pesar unos 15 kg. Cuando están jóvenes tienen una coloración con tonos verdes y al ir madurando predomina un color grisáceo con crestas o espinas en su espalda. </p>
+	<p>La alimentación de la iguana va variando según su etapa de vida, pero la mayor parte de sus años son herbívoras. Viven en lugares tropicales con mucha vegetación y es un animal que puede ser domesticado. </p>
+</div>
+
+<img class="w-100" src="assets/img/iguana-1.jpg" alt="Iguana_1">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&amp;display=swap" rel="stylesheet">
+
+DISPLAY: INLINE-BLOCK
+
+
+<secction>
+<div>
+<h1>Caracteristicas</h1>
+</div>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<h4>Tercer ojo</h4>
+<i class="fa-solid fa-hand-peace"></i>
+<h4>Pacificas</h4>
+<i class="fa-solid fa-paintbrush"></i>
+<h4>Cambian de color</h4>
+</secction>
+
+<footer>
+<a href="link">Texto a mostrar</a>
+<a href="https://www.anipedia.net/iguanas/iguana-verde/" target="_blank">Visita https://www.anipedia.net/iguanas/iguana-verde/ para conocer más</a>
+</footer>
+
+
+
+ 	<ul>
+                <img href="#"><img src="assets/img/coffee-cup.svg" width="50" /></a>
+                <li><a href="#">Ubicación</a></li>
+                <li><a href="#">Próxima Charla</a></li>
+                <li><a href="#">Eventos anteriores</a></li>
+                <li><a href="#">Contacto</a></li>
+         </ul>
+
+
+ctrl+k+c para identar
+
+
+<script src="https://kit.fontawesome.com/2c5cede0e.js" crossorigin="anonymous"></script>
+
+
+
+
+Inicio 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

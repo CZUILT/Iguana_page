@@ -1,0 +1,1 @@
+alert("Este es otro mensaje de alerta desde la carpeta JS")

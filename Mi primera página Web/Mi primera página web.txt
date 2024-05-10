@@ -1,0 +1,49 @@
+
+<head>
+	<title>Meet & Coffee</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/png"
+		href="./assets/img/favicon.png">
+	<meta name="author" content="Desafío Latam">
+	<meta name="description" content="Comparte tus conocimientos tomando
+		café">
+	<meta name="keywords" content="charlas, eventos, simposios,
+		tecnología, co-work">
+</head>
+ 
+<body>
+	<ul>
+		<li><a href="#"><img src="assets/img/coffee-cup.svg" width="50" /></a></li>
+		<li><a href="#">Ubicación</a></li>
+		<li><a href="#">Próxima Charla</a></li>
+		<li><a href="#">Eventos anteriores</a></li>
+		<li><a href="#">Contacto</a></li>
+	</ul>
+
+<img src="assets/img/bg-hero.png" width="300" />
+<h1>Descubre lo último en tecnología bebiendo café</h1>
+<h2>Charlas, eventos y simposios sobre tecnología</h2>
+
+<img src="assets/img/we-work.jpg" width="300" />
+<h2>¿Dónde nos juntamos?</h2>
+<p>Todos los martes y viernes, de 19:00 a 22:00 en We Work, Calle Baker 133,Providencia, Santiago.</p>
+
+<img src="assets/img/speaker.jpg" width="300" />
+<h3>Próxima charla</h3>
+<p>Big Data para Noobs</p>
+<p>Rafaela Valdéz</p>
+<p>Data Scientist, PhD Theoretical Physics, Carneige Mellon University.</p>
+<p>En esta charla revisaremos las técnicas y tecnologías que hacen que sea económico hacer frente a los datos a una escala extrema.</p>
+
+<h4>Eventos anteriores</h4>
+
+<img src="assets/img/simposio-vegan.jpg" width="300" />
+<p>Simposio VeganDB</p>
+
+<img src="assets/img/machine-learning.jpg" width="300" />
+<p>Machine learning 101</p>
+
+<img src="assets/img/scrum-sin-scream.jpg" width="300" />
+<p>Scrum sin scream</p>
+
+</body>
