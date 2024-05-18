@@ -1,0 +1,18 @@
+Terminal Git GitHub y GitHub Pages
+mkdir proyecto1				: crea "documento o directorio" proyecto1
+touch index.html			: crea "un archivo" index.html
+cp index.html /proyecto1/index.html	: crea el archivo index.html dentro de carpeta proyecto1
+cp index.html /proyecto1/index2.html 	: crea un nuevo archivo fuera de la carpeta, pero envia a la carpeta
+cp index.html index3.html               : crea un nuevo archivo dentro de la misma carpeta
+
+
+cp modulo1.doc /apuntes/modulo1.doc
+touch modulo1.doc
+cp modulo1.doc /apuntes/modulo1.doc
+cp modulo1.doc /alumno/modulo1.doc
+mkdir modulo1.doc
+
+PASOS PARA MODIFICAR GIT/GITHUB
+git status
+git add .
+git commit -m "nombre del cambio realizado"
